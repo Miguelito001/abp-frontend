@@ -4,7 +4,7 @@
 
 - Lista de Integrantes da Equipe
 
-Joao Eduardo
+Joao Eduardo Milak Farias
 Diego Hahn Fração
 Luiz Miguel Rosso
 Gustavo Valsechi de Freitas
@@ -38,6 +38,8 @@ necessidade deles para serem seus "clientes")
 - Tecnologias, bibliotecas e frameworks que já decidiram usar ao longo do projeto daqui em diante, por exemplo,
 iremos usar React com Vite.js e TypeScript, além de Radix e TailwindCSS para facilitar no design e etc (tecnologia
 até aqui - não quer dizer que não possam mudar até o final do projeto caso achem algo melhor)
+
+      React
 
 - Características/diferenciais importantes do projeto (este é um tópico adicional para complementar os tópicos
 Descrição e Estrutura do Projeto, a ideia é escrever um pouco mais de "quantidade" de texto sem ser apenas uma
