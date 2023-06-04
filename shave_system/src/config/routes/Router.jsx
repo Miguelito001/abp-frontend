@@ -1,25 +1,14 @@
-import { createBrowserRouter } from "react-router-dom";
 import Login from '../../components/login'
+import Register from '../../components/register'
+import { Routes, Route } from 'react-router-dom';
 
-const router = createBrowserRouter([
-        {
-          path: "/",
-          //element: ,
-          children: [
-            {
-              path: "/",
-              element: <Login />,
-            },
-            {
-              //path: "/",
-              //element: <Cadaster />,
-            },
-            {
-              //path: "/",
-              //element: <Estoque />,
-            },
-          ],
-        },
-      ]);
+const RoutesConfig = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/cadastro" element={<Register />} />
+    </Routes>
+  );
+};
 
-export default router;
+export default RoutesConfig;
