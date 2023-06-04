@@ -1,11 +1,12 @@
 import React,{useState} from 'react';
-import { Link } from "react-router-dom";
-import  '../Assets/CSS/Login.css'; 
-import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import {Logar} from '../HTTP/login'
+import { Link, useNavigate } from "react-router-dom";
+import  '../../Assets/CSS/Login.css'; 
+import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import {Logar} from '../../HTTP/login'
 
 function Login() {
 
+  const navigate = useNavigate();
   const [form, setForm] = useState({
     nome: '',
     senha: '',
@@ -18,7 +19,7 @@ function Login() {
   
     const handleSubmit = async (e) => {
       e.preventDefault();
-      Logar(form.nome,form.senha)
+      Logar(form.nome,form.senha,navigate)
     };    
     return (
       <section className="vh-100" style={{ backgroundColor: "black" }}>

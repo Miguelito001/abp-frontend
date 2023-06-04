@@ -1,9 +1,9 @@
 import React,{useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-import validationSchema from '../config/Validation/register/Form'
-import {RegisterUser} from '../HTTP/register'
+import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+import validationSchema from '../../config/Validation/register/Form'
+import {RegisterUser} from '../../HTTP/register'
 
 function Register() {
 

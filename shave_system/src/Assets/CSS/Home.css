@@ -1,0 +1,48 @@
+.home-heading {
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.home-container {
+  display: flex;
+  max-width: 50vw;
+  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15%;
+  padding-top: 100px;
+  margin-left: 25vw;
+}
+
+.home-card {
+  width: 250px;
+  height: 250px;
+  background: black;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.home-card-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.home-card-image {
+  width: 70%;
+  height: 50%;
+}
+
+.home-card-detail p {
+  color: white;
+  font-size: 30px;
+}
